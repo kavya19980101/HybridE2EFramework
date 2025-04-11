@@ -18,6 +18,7 @@ public void TC02_AddEmployeeVerification() throws InterruptedException
 	Assert.assertTrue(result);
 	Thread.sleep(5000);
 	System.out.println("verification is done");
+	Assert.fail();
 
 	
 }
